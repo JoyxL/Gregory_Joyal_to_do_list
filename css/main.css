@@ -99,7 +99,6 @@ input[type="checkbox"]:checked + span {
 }
 
 input[type="checkbox"]:checked ~ span::after {
-    content: url(../images/check\ progress.png);
     position: absolute;
     width: 5px;
     height: 5px;
